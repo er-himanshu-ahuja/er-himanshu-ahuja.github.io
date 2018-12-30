@@ -1,0 +1,39 @@
+.text--primary {
+  font-family: 'PT Sans', sans-serif;
+}
+
+.text--secondary {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.text--xl {
+  font-size: 40px;
+}
+
+.text--large {
+  font-size: 24px;
+}
+
+.text--medium {
+  font-size: 20px;
+}
+
+.text--small {
+  font-size: 16px;
+}
+
+.pR--10 {
+  padding-right: 10px;
+}
+
+.pT--10 {
+  padding-top: 10px;
+}
+
+.separator {
+  content: '';
+  width: 100%;
+  padding: 0;
+  padding-top: 25px;
+  margin: 0;
+}
