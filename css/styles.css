@@ -83,6 +83,7 @@ body {
   width: 100%;
   height: 5px;
   background-color: #337ab7;
+  background: linear-gradient(110deg, #337ab7 60%, #174873 60%);
 }
 
 .profile-image {
