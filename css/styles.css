@@ -94,6 +94,24 @@ body {
 
 .profile-image {
   width: 120px;
+  border-radius: 2.5px;
+}
+
+.cv-button {
+  position: fixed;
+  top: 60px;
+  right: 30px;
+}
+
+.cv-button a {
+  padding: 20px;
+  background: #D81B60;
+  color: white;
+  border-radius: 5px;
+}
+
+.cv-button a:hover * {
+  color: white;
 }
 
 #particles-js {
@@ -106,5 +124,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .cv-button {
+    position: relative;
+    display: none;
+  }
 }
 /* Other Wordly Things Ends */
