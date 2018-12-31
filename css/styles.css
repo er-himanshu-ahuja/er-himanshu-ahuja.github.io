@@ -99,12 +99,13 @@ body {
 
 .cv-button {
   position: fixed;
-  top: 60px;
+  top: 40px;
   right: 30px;
+  z-index: 2;
 }
 
 .cv-button a {
-  padding: 20px;
+  padding: 15px 20px;
   background: #D81B60;
   color: white;
   border-radius: 5px;
@@ -112,6 +113,11 @@ body {
 
 .cv-button a:hover * {
   color: white;
+}
+
+.job-description p:before {
+  content: '\2023';
+  font-weight: 900;
 }
 
 #particles-js {
