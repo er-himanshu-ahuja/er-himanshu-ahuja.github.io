@@ -27,95 +27,103 @@
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
   <!-- Deferred Dependencies -->
   <script defer src="https://use.fontawesome.com/releases/v5.6.3/js/all.js" integrity="sha384-EIHISlAOj4zgYieurP0SdoiBYfGJKkgWedPHH4jCzpCXLmzVsw1ouK59MuUtP4a1" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-  <div class="header"></div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 profile-banner">
-        <div class="pull-left pR--10 image-wrapper">
-          <img src="assets/profile-squared.png" alt="Profile Picture" class="profile-image">
+  <div id="page-loader">
+    <div class="spinner-container">
+      <div class="css-spinner"></div>
+    </div>
+  </div>
+  <div class="main-container">
+    <div class="header"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 profile-banner">
+          <div class="pull-left pR--10 image-wrapper">
+            <img src="assets/profile-squared.png" alt="Profile Picture" class="profile-image">
+          </div>
+          <div class="profile-title">
+            <div class="text--xl text--primary">Himanshu Ahuja</div>
+            <div class="text--small text--secondary">{ Software Developer }</div>
+            <div class="text--small pT--10 social-links-wrapper">
+              <ul class="list-inline social-links">
+                <li class="social-item"><a href="https://github.com/er-himanshu-ahuja" class="social-link"><i class="fab fa-github-alt"></i></a></li>
+                <li class="social-item"><a href="https://linkedin.com/in/erhimanshuahuja/" class="social-link"><i class="fab fa-linkedin-in"></i></a></li>
+                <li class="social-item"><a href="mailto:ahujahimanshu35@gmail.com" class="social-link"><i class="far fa-envelope"></i></a></li>
+                <li class="social-item"><a href="tel:+919752587636" class="social-link"><i class="fas fa-phone"></i></a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="profile-title">
-          <div class="text--xl text--primary">Himanshu Ahuja</div>
-          <div class="text--small text--secondary">{ Software Developer }</div>
-          <div class="text--small pT--10 social-links-wrapper">
-            <ul class="list-inline social-links">
-              <li class="social-item"><a href="https://github.com/er-himanshu-ahuja" class="social-link"><i class="fab fa-github-alt"></i></a></li>
-              <li class="social-item"><a href="https://linkedin.com/in/erhimanshuahuja/" class="social-link"><i class="fab fa-linkedin-in"></i></a></li>
-              <li class="social-item"><a href="mailto:ahujahimanshu35@gmail.com" class="social-link"><i class="far fa-envelope"></i></a></li>
-              <li class="social-item"><a href="tel:+919752587636" class="social-link"><i class="fas fa-phone"></i></a></li>
+      </div>
+      <div class="separator"></div>
+      <div class="row">
+        <div class="about-me">
+          <div class="col-md-2 text--primary text--large">
+            About Me
+          </div>
+          <div class="col-md-10 text--secondary text--small">
+            <div>I'm a backend developer based in Noida, India.</div>
+            <div>I'm experienced in providing End-to-End Software Delivery using Agile Methodologies.</div>
+            <div>I'm self-motivated, flexible, and always keen on learning new things in life.</div>
+            <div>I'm also a self-professed cook. <i class="fas fa-utensils"></i></div>
+          </div>
+        </div>
+      </div>
+      <div class="separator"></div>
+      <div class="row">
+        <div class="skills">
+          <div class="col-md-2 text--primary text--large">
+            Tech Skills
+          </div>
+          <div class="col-md-10 text--secondary text--small">
+            <ul class="list-inline">
+              <li class="skill-item">ASP.NET 4.5</li>
+              <li class="skill-item">MVC 4</li>
+              <li class="skill-item">ADO.NET</li>
+              <li class="skill-item">C# 6.0</li>
+              <li class="skill-item">MS SQL</li>
+              <li class="skill-item">SSIS</li>
+              <li class="skill-item">SSRS(Basics)</li>
+              <li class="skill-item">HTML5</li>
+              <li class="skill-item">JavaScript</li>
+              <li class="skill-item">jQuery</li>
             </ul>
           </div>
         </div>
       </div>
-    </div>
-    <div class="separator"></div>
-    <div class="row">
-      <div class="about-me">
-        <div class="col-md-2 text--primary text--large">
-          About Me
-        </div>
-        <div class="col-md-10 text--secondary text--small">
-          <div>I'm a backend developer based in Noida, India.</div>
-          <div>I'm experienced in providing End-to-End Software Delivery using Agile Methodologies.</div>
-          <div>I'm self-motivated, flexible, and always keen on learning new things in life.</div>
-          <div>I'm also a self-professed cook. <i class="fas fa-utensils"></i></div>
-        </div>
-      </div>
-    </div>
-    <div class="separator"></div>
-    <div class="row">
-      <div class="skills">
-        <div class="col-md-2 text--primary text--large">
-          Tech Skills
-        </div>
-        <div class="col-md-10 text--secondary text--small">
-          <ul class="list-inline">
-            <li class="skill-item">ASP.NET 4.5</li>
-            <li class="skill-item">MVC 4</li>
-            <li class="skill-item">ADO.NET</li>
-            <li class="skill-item">C# 6.0</li>
-            <li class="skill-item">MS SQL</li>
-            <li class="skill-item">SSIS</li>
-            <li class="skill-item">SSRS(Basics)</li>
-            <li class="skill-item">HTML5</li>
-            <li class="skill-item">JavaScript</li>
-            <li class="skill-item">jQuery</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="separator"></div>
-    <div class="row">
-      <div class="experience">
-        <div class="col-md-2 text--primary text--large">
-          Professional Experience
-        </div>
-        <div class="col-md-10 text--secondary text--small">
-          <ul class="list-unstyled jobs-container">
-            <li class="row job-item">
-              <div class="col-md-3 text--primary text--medium job-period">
-                April 2016 - Present
-              </div>
-              <div class="col-md-9 job-details">
-                <div class="text--primary text--medium employee">
-                  Tata Consultancy Services (TCS)
+      <div class="separator"></div>
+      <div class="row">
+        <div class="experience">
+          <div class="col-md-2 text--primary text--large">
+            Professional Experience
+          </div>
+          <div class="col-md-10 text--secondary text--small">
+            <ul class="list-unstyled jobs-container">
+              <li class="row job-item">
+                <div class="col-md-3 text--primary text--medium job-period">
+                  April 2016 - Present
                 </div>
-                <div class="text--secondary text--small pT--10 job-description">
-                  <p>
-                    At TCS, I'm responsible for working in a collaborative environment, requirement gathering and analysis, end-to-end development, and deployment for the clients.
-                  </p>
-                  <p>
-                    I worked in the Healthcare domain (IT and Services industry) for TCS's US Clients, where I worked on these tools and technologies:
-                  </p>
-                  <p>
-                    C#, .NET Framework, ADO.NET, ASP.NET, Windows Communication Foundation (WCF), MVC 5, SSIS, Microsoft SQL Server 2008R2, Microsoft VS Studio, TFS and VSTS.
-                  </p>
+                <div class="col-md-9 job-details">
+                  <div class="text--primary text--medium employee">
+                    Tata Consultancy Services (TCS)
+                  </div>
+                  <div class="text--secondary text--small pT--10 job-description">
+                    <p>
+                      At TCS, I'm responsible for working in a collaborative environment, requirement gathering and analysis, end-to-end development, and deployment for the clients.
+                    </p>
+                    <p>
+                      I worked in the Healthcare domain (IT and Services industry) for TCS's US Clients, where I worked on these tools and technologies:
+                    </p>
+                    <p>
+                      C#, .NET Framework, ADO.NET, ASP.NET, Windows Communication Foundation (WCF), MVC 5, SSIS, Microsoft SQL Server 2008R2, Microsoft VS Studio, TFS and VSTS.
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </li>
-          </ul>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
