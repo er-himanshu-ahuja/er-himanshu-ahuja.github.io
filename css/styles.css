@@ -118,6 +118,7 @@ body {
 .job-description p:before {
   content: '\2023';
   font-weight: 900;
+  padding-right: 5px;
 }
 
 #particles-js {
