@@ -1,0 +1,73 @@
+{
+  "fullName": "Himanshu Ahuja",
+  "role": "Software Developer",
+  "pictureUrl": "assets/profile-squared.jpg",
+  "pictureAlt": "Profile Picture",
+  "cvLink": {
+    "label": "Click to Download Resume",
+    "link": "./assets/Resume - Himanshu Ahuja.pdf"
+  },
+  "socialLinks": [
+    {
+      "label": "Github Profile Link",
+      "link": "https://github.com/er-himanshu-ahuja",
+      "class": "fab fa-github-alt"
+    },
+    {
+      "label": "LinkedIn Profile Link",
+      "link": "https://linkedin.com/in/erhimanshuahuja/",
+      "class": "fab fa-linkedin-in"
+    },
+    {
+      "label": "Email URL",
+      "link": "mailto:ahujahimanshu35@gmail.com",
+      "class": "far fa-envelope"
+    },
+    {
+      "label": "Contact Number",
+      "link": "tel:+919752587636",
+      "class": "fas fa-phone"
+    }
+  ],
+  "aboutMe": {
+    "title": "About Me",
+    "description": [
+      "I'm a backend developer based in Noida, India.",
+      "I'm experienced in providing End-to-End Software Delivery using Agile Methodologies.",
+      "I'm self-motivated, flexible, and always keen on learning new things in life.",
+      "I'm also a self-professed cook. <i class=\"fas fa-utensils\" aria-hidden=\"true\"></i>"
+    ]
+  },
+  "skillSet": [
+    {
+      "title": "Tech Skills",
+      "skills": [
+        "ASP.NET 4.5",
+        "MVC 4",
+        "ADO.NET",
+        "C# 6.0",
+        "MS SQL",
+        "SSIS",
+        "SSRS (Basics)",
+        "HTML5",
+        "JavaScript",
+        "jQuery"
+      ]
+    }
+  ],
+  "professionalExperience": {
+    "title": "Professional Experience",
+    "jobs": [
+      {
+        "employer": "Tata Consultancy Services (TCS)",
+        "roleDescription": [
+          "At TCS, I'm responsible for working in a collaborative environment, requirement gathering and analysis, end-to-end development, and deployment for the clients.",
+          "I'm working in the Healthcare domain (IT and Services industry) for TCS's US Clients, where we work on these tools and technologies:",
+          "C#, .NET Framework, ADO.NET, ASP.NET, Windows Communication Foundation (WCF), MVC 5, SSIS, Microsoft SQL Server 2008R2, Microsoft VS Studio, TFS and VSTS."
+        ],
+        "startDate": "April 2016",
+        "endDate": "Present"
+      }
+    ]
+  }
+}

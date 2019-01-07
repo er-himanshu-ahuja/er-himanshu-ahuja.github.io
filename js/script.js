@@ -1,6 +1,9 @@
 (function () {
   "use strict";
 
+  /*
+   * Loader Logic STARTS
+   */
   function fadeOutAndRemove(el) {
     var fadeTarget = el;
     var fadeEffect = setInterval(function () {
@@ -26,6 +29,9 @@
       fadeOutAndRemove(loaderElement);
     }
   }, 300);
-  
+  /*
+   * Loader Logic ENDS
+   */
+
   console.log("\n\t Make it work, make it right, make it fast.\n\n \t\t\t\t\t\t\t\t\t\t\t Kent Beck \n\n");
 })();

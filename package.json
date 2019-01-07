@@ -1,0 +1,23 @@
+{
+  "name": "er-himanshu-ahuja.github.io",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.html",
+  "scripts": {
+    "build": "mustache ./assets/view.json template.mustache > index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/er-himanshu-ahuja/er-himanshu-ahuja.github.io.git"
+  },
+  "author": "Himanshu Ahuja",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/er-himanshu-ahuja/er-himanshu-ahuja.github.io/issues"
+  },
+  "homepage": "https://github.com/er-himanshu-ahuja/er-himanshu-ahuja.github.io#readme",
+  "devDependencies": {
+    "mustache": "^3.0.1"
+  }
+}
